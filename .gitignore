@@ -1,3 +1,29 @@
 venv/
 __pycache__/
 mlruns/
+# Environment variables and secrets
+.env
+.env.*
+
+# MLflow database
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# Large datasets and generated arrays
+data/raw_data.csv
+data/processed_data.csv
+data/sentiment_data.csv
+data/external/
+data/X_*.npy
+data/y_*.npy
+data/customer_segments.npy
+
+# IDE files
+.vscode/
+.idea/
+
+# Python environment alternatives
+.venv/
+env/
+.ipynb_checkpoints/
